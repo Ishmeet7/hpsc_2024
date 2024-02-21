@@ -9,6 +9,6 @@ def my_cubrt(x):
      kmax=10
      for k in range(kmax):
      
-         s=(2*s+(x/(s^2)))/3.0
+         s=(2*s+(x/(s**2)))/3.0
      return s    
 

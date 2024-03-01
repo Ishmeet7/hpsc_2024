@@ -18,8 +18,6 @@ real(kind=8) function sqrt2(x)
    integer::i
    
    s=1.0
-   
-   
    do i=1,kmax
 		
 		s = 0.5 * (s + (x/s))
